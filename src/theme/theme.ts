@@ -8,6 +8,7 @@ const TTheme: DefaultTheme = {
     yellow: 'yellow',
     red: 'red',
     black: 'black',
+    darkBlack: '#3A3B3C',
     white: 'white',
     pearl: '#E2DFD2',
     saddleBrown: '#8B4513',

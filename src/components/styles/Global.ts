@@ -19,7 +19,19 @@ const GlobalStyled = createGlobalStyle`
         margin: 5% 0 0 0;
 
         @media (max-width: ${({ theme }) => theme.mobile}) {
-            margin: 30% 0 0 0;
+            background: url("./icons/bg-imagee.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: calc(100%) calc(100%);
+            background-color: ${({ theme }) => theme.colors.saddleBrown};
+
+            display: flex;
+            justify-content: ${({ theme }) => theme.bodyJustifyContent.center};
+            align-items: ${({ theme }) => theme.bodyAlignItems.bottom};
+            text-align: center;
+            min-height: 70vh;
+            margin: 25% 0 0 0;
         }
     }
 
@@ -28,7 +40,10 @@ const GlobalStyled = createGlobalStyle`
         text-decoration: none;
         color: ${({ theme }) => theme.colors.white};
         font-weight: normal;
-    }
+        @media (max-width: ${({ theme }) => theme.mobile}) {
+            color: ${({ theme }) => theme.colors.black};
+        }  
+    }  
 `;
 
 

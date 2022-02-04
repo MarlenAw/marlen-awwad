@@ -10,6 +10,10 @@ export const ImageDivStyled = styled.div<{width?: string}>`
     padding:3px 2px 0 3px;
     border-radius: 50%;
     margin: 3px 0 0 0;
+
+    @media (max-width: ${({ theme }) => theme.mobile}) {
+        background: none;
+    }  
 `;
 
 export const TextDivStyled = styled.div<{width?: string}>`
