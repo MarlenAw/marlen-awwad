@@ -15,8 +15,14 @@ const GlobalStyled = createGlobalStyle`
         justify-content: ${({ theme }) => theme.bodyJustifyContent.center};
         align-items: ${({ theme }) => theme.bodyAlignItems.center};
         text-align: center;
-        min-height: 100vh;
+        min-height: 85vh;
+        margin: 5% 0 0 0;
+
+        @media (max-width: ${({ theme }) => theme.mobile}) {
+            margin: 30% 0 0 0;
+        }
     }
+
 
     a {
         text-decoration: none;

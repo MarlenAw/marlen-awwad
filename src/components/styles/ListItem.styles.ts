@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DivStyled = styled.div`
     display: flex;
-    margin: 0 0 3% 10%;
+    margin: 3% 0 3% 15%;
 `;
 
 export const ImageDivStyled = styled.div<{width?: string}>`

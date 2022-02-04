@@ -1,4 +1,3 @@
-import { DivStyled, ImageDivStyled, TextDivStyled } from "../styles/ListItem.styles";
 import { MailtoProps } from "./types";
 
 const Mailto: React.FC<MailtoProps> = ({

@@ -19,11 +19,6 @@ const data = [
       icon: 'phone.svg',
       text: '0506374363',
     },
-    {
-      id: 2,
-      icon: 'instagram.svg',
-      text: 'MarlenAwwad',
-    },
   ]
 
   export default data; 
