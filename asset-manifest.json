@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/marlen-awwad/static/js/main.7bf4afee.js",
+    "main.js": "/marlen-awwad/static/js/main.adaa54fd.js",
     "static/js/787.d6036d15.chunk.js": "/marlen-awwad/static/js/787.d6036d15.chunk.js",
     "index.html": "/marlen-awwad/index.html",
-    "main.7bf4afee.js.map": "/marlen-awwad/static/js/main.7bf4afee.js.map",
+    "main.adaa54fd.js.map": "/marlen-awwad/static/js/main.adaa54fd.js.map",
     "787.d6036d15.chunk.js.map": "/marlen-awwad/static/js/787.d6036d15.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.7bf4afee.js"
+    "static/js/main.adaa54fd.js"
   ]
 }
